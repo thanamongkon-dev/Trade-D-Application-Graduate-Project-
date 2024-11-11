@@ -46,8 +46,8 @@ const ChatRoom2 = ({ route }) => {
     setSelectedImages(selectedImages.filter((image) => image.uri !== uri));
   };
 
-  // const socket = io("http://192.168.1.105:3000");
-  const socket = io("https://trade-d-api.onrender.com")
+  const socket = io("127.0.0.1:3000");
+  // const socket = io("https://trade-d-api.onrender.com")
   // const socket = io("https://4k8qfdn5-3000.asse.devtunnels.ms/");
 
   useEffect(() => {
